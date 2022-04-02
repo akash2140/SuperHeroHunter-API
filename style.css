@@ -1,0 +1,121 @@
+#heading-hero {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+  display: inline-block;
+}
+#author-link{
+  /* color: black; */
+  text-decoration: none;
+}
+.image-size {
+  width: 70px;
+  height: 70px;
+  margin-left: 2rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  border: 2px solid black;
+  overflow: scroll;
+  height: 60vh;
+  width: 25%;
+  border: none;
+  padding: 0%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+ul li {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 6rem;
+  outline: none;
+  border: none;
+  background-color: brown;
+  color: white;
+}
+
+#delFav {
+  color: red;
+  font-size: 25px;
+}
+#delFav:hover {
+  cursor: pointer;
+}
+#addFav:hover {
+  cursor: pointer;
+}
+#addFav {
+  font-size: 25px;
+  color: lightgray;
+}
+.search-item a {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.heroname-text {
+  margin-left: 20px;
+  color: black;
+  font-size: 18px;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#my-heroes {
+  float: right;
+  color: red;
+}
+body {
+  background-image: url(backgorund.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#my-heros-link {
+  color: red;
+}
+
+
+h2 {
+  display: inline-block;
+}
+
+#searchHero {
+  display: block;
+  width: 25%;
+  height: 2rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: black;
+  padding-left: 2%;
+  background-color: transparent;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: black;
+}
+#searchHero:focus-visible {
+  outline: none;
+}
